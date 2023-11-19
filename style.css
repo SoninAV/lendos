@@ -28,7 +28,7 @@
 		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
-body {
+.wrapper {
     background-color: #F5F6FA;
     font-family: Gilroy-Regular, Arial, sans-serif;
 	font-size: 13px;
@@ -49,6 +49,7 @@ h1 {
 
 h2 {
 	font-size: 47px;
+	margin: 0 auto 45px;
 }
 
 footer {
@@ -123,7 +124,8 @@ header {
 .header-callback {
 	font-weight: 600;
 	color: #87BF3C;
-	text-decoration: underline;
+	text-decoration: none;
+    border-bottom: 1px dashed;
 }
 
 .intro p {
@@ -167,7 +169,128 @@ header {
 	margin-left: 10px;
 }
 
-.for-Kursk-btn {
+.for-Kursk {
+	padding-top: 50px;
+}
+
+.for-Kursk__title {
+	width: 1021px;
+	font-size: 47px;
+	margin: 0 auto 45px;
+	text-align: center;
+	line-height: 1;
+}
+
+.for-Kursk__title_bold {
+    font-family: Gilroy-Bold, Arial, sans-serif;
+}
+
+.cards {
+	font-size: 0;
+	color: white;
+	width: calc(348px * 3 + 31px *2);
+	margin: auto;
+}
+
+.cards__col {
+	width: 348px;
+	margin-right: 31px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.cards__col_mr-0 {
+	margin-right: 0;
+}
+
+.card {
+	box-sizing: border-box;
+	height: 161px;
+	padding: 30px 30px 22px 40px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.card_big {
+	height: 351px;
+	padding: 45px;
+}
+
+.card_bg1 {
+	background-image: url("images/house1.jpg");
+}
+
+.card_bg2 {
+	background-image: url("images/house2.jpg");
+}
+
+.card_bg3 {
+	background-image: url("images/house3.jpg");
+}
+
+.card_bg4 {
+	background-image: url("images/house4.jpg");
+}
+
+.card_bg5 {
+	background-image: url("images/house5.jpg");
+}
+
+.card_bg6 {
+	background-image: url("images/house6.jpg");
+}
+
+.card__title {
+	margin: 0;
+	font-size: 23px;
+	font-weight: 600;
+	width: 50%;
+}
+
+.card__title_big {
+	font-size: 29px;
+}
+
+.card__projects-100 {
+	background-color: white;
+	color: black;
+	line-height: 25px;
+	border-radius: 13px;
+	font-size: 9px;
+	font-weight: 600;
+	padding: 0 8px;
+	position: absolute;
+	top: 30px;
+	right: 35px;
+}
+
+.card__projects-100_tr-changes {
+	top: 48px;
+	right: 40px;
+}
+
+.card__price {
+	position: absolute;
+	right: 25px;
+	bottom: 22px;
+	font-size: 13px;
+}
+
+.card__price_big {
+	right: 147px;
+	bottom: 100px;
+}
+
+.card__price_num-big {
+	font-size: 23px;
+	font-weight: 600;
+}
+
+.card__price_num-bigger {
+	font-size: 29px;
+}
+
+.card__btn {
 	display: inline-block;
 	background-color: #73B918;
 	font-size: 10px;
@@ -176,74 +299,164 @@ header {
 	text-decoration: none;
 	font-weight: Normal;
     font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.for-Kursk-btn-big {
-	padding: 14px 30px;
-}
-
-.for-Kursk-btn-small {
+	text-align: center;
 	padding: 11px 17px;
+	position: absolute;
+	left: 40px;
+	bottom: 26px;
 }
 
-.projects-100 {
-	background-color: white;
-	height: 25px;
-	line-height: 25px;
-	width: 76px;
-	border-radius: 13px;
-	font-size: 9px;
-	font-weight: 600;
-	padding-left: 12px;
+.card__btn_big {
+	padding: 14px 30px;
+	left: 45px;
+	bottom: 45px;
 }
 
-.house-card-big h3 {
-	font-size: 29px;
+.popular {
+	margin-top: 90px;
 }
 
-.house-card-big .price-num {
-	font-size: 29px;
+.popular__title {
+	width: 1106px;
+	text-align: center;
+	line-height: 1;
+	margin: auto;
+	font-size: 47px;
+	font-weight: Normal;
+    font-family: Gilroy-Bold, Arial, sans-serif;
 }
 
-.house-card-small h3 {
-	font-size: 23px;
+.nav-for-cards {
+	width: 1106px;
+	margin: 54px auto 32px;
 }
 
-.house-card-small .price-num {
-	font-size: 23px;
+.nav-for-cards__all {
+	color: #F7D047;
+	text-decoration: none;
+	border-bottom: 1px dashed;
 }
 
-.popular>nav>button {
+.nav-for-ataman {
+	display: inline-block;
+	margin-right: 48px;
+	
+}
+
+.nav-for-ataman__btn {
 	background-color: #EFEFEF;
     color: #5C5F66;
 	font-size: 13px;
 	font-weight: normal;
 	padding: 5px 10px;
-    margin: 2px;
+    margin: 6px;
 }
 
-.house-card-ataman h3 {
+.nav-for-ataman__btn_green {
+	background-color: #73B918;
+	color: white;
+}
+
+.cards-ataman {
+	width: 1114px;
+	margin: 0 auto;
+}
+
+.card-ataman {
+	display: inline-block;
+	width: 350px;
+	height: 505px;
+	border-radius: 14px;
+	background-color: white;
+	margin: 0 28px 24px 0;
+}
+
+.card-ataman_mr0 {
+	margin-right: 0;
+}
+
+.card-ataman_mb0 {
+	margin-bottom: 0;
+}
+
+.card-ataman-info {
+	padding: 28px;
+}
+
+.card-ataman-info__title {
+	margin: 0 0 16px;
+	line-height: 1;
 	font-size: 29px;
 	font-weight: Normal;
     font-family: Gilroy-Bold, Arial, sans-serif;
 }
 
-.ataman-price-num {
+.card-ataman-info__circle {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background: #85B440;
+	border-radius: 50%;
+	margin-right: 4px;
+}
+
+.card-ataman-info__square-period {
+	margin-bottom: 8px;
+}
+
+.card-ataman-info__square-period_bold {
+	font-weight: bold;
+}
+
+.card-ataman-info__square-period_right {
+	float: right;
+}
+
+.card-ataman-info__sizes-rooms {
+	margin-bottom: 17px;
+}
+
+.card-ataman-info__sizes-rooms_bold {
+	font-weight: bold;
+}
+
+.card-ataman-info__sizes-rooms_right {
+	float: right;
+}
+
+.card-ataman-info__type {
+	margin-bottom: 5px;
+}
+
+.card-ataman-info__type_right {
+	float: right;
+	font-weight: bold;
+}
+
+.card-ataman-info__cost {
+	margin-bottom: 28px;
+}
+
+.card-ataman-info__cost_right {
+	float: right;
+	font-weight: bold;
+}
+
+.card-ataman-info__cost_bottom {
+	vertical-align: -18px;
+}
+
+.card-ataman-info__cost_green {
 	font-size: 31px;
 	font-weight: Normal;
     font-family: Gilroy-Bold, Arial, sans-serif;
 	color: #73B918;
 }
 
-.ataman-planirovka {
-	font-size: 9px;
-	color: #B8B8BA;
-}
-
-.ataman-btn {
+.card-ataman-info__btn {
 	display: inline-block;
 	background-color: #FEAA01;
-	padding: 14px 26px 10px;
+	padding: 12px 26px 12px;
 	border-radius: 5px;
 	color: #FCFCFE;
 	text-decoration: none;
@@ -251,8 +464,23 @@ header {
     font-family: Gilroy-Bold, Arial, sans-serif;
 }
 
-.ataman-btn img {
+.card-ataman-info__btn_img {
 	margin: 0 0 3px 10px;
+}
+
+.card-ataman-info__special {
+	width: 90px;
+	float: right;
+	text-align: right;
+	margin-top: 11px;
+	font-size: 9px;
+	color: #B8B8BA;
+}
+
+.card-ataman-info__special_img {
+	display: block;
+	float: left;
+	margin-top: 4px;
 }
 
 .Your-house>nav>button {
@@ -559,7 +787,9 @@ header {
 	font-weight: Normal;
     font-family: Gilroy-Bold, Arial, sans-serif;
 	color: #8CB746;
-	text-decoration: underline;
+	text-decoration: none;
+	text-decoration: none;
+    border-bottom: 1px dashed;
 }
 
 .our-contacts-btn {
