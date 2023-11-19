@@ -79,7 +79,7 @@ button>img, a>img {
 }
 
 header {
-	background-image:  url(/images/house-lendos-1.jpg);
+	background-image: url("../images/house-lendos-1.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -92,7 +92,7 @@ header {
 }
 
 .mark-4-9 {
-    background-image:  url(/images/Zakladka.svg);
+    background-image: url("../images/Zakladka.svg");
     background-repeat: no-repeat;
 	font-size: 20px;
 	color:white;
@@ -217,27 +217,27 @@ header {
 }
 
 .card_bg1 {
-	background-image:  url("/images/house1.jpg");
+	background-image:  url("../images/house1.jpg");
 }
 
 .card_bg2 {
-	background-image:  url("/images/house2.jpg");
+	background-image:  url("../images/house2.jpg");
 }
 
 .card_bg3 {
-	background-image:  url("/images/house3.jpg");
+	background-image:  url("../images/house3.jpg");
 }
 
 .card_bg4 {
-	background-image:  url("/images/house4.jpg");
+	background-image:  url("../images/house4.jpg");
 }
 
 .card_bg5 {
-	background-image:  url("/images/house5.jpg");
+	background-image:  url("../images/house5.jpg");
 }
 
 .card_bg6 {
-	background-image:  url("/images/house6.jpg");
+	background-image:  url("../images/house6.jpg");
 }
 
 .card__title {
