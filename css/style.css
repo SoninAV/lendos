@@ -52,19 +52,6 @@ h2 {
 	margin: 0 auto 45px;
 }
 
-footer {
-	font-weight: Normal;
-    font-family: Gilroy-Medium, Arial, sans-serif;
-}
-
-header nav, footer nav {
-	font-weight: Normal;
-    font-family: Gilroy-Medium, Arial, sans-serif;
-	font-size: 16px;
-	text-transform: uppercase;
-	color: #FBFFFF;
-}
-
 h1, h2, h3, h4 {
     font-weight: 400;
 }
@@ -125,7 +112,17 @@ header {
 	font-weight: 600;
 	color: #87BF3C;
 	text-decoration: none;
-    border-bottom: 1px dashed;
+  border-bottom: 1px dashed;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+	font-weight: Normal;
+  font-family: Gilroy-Medium, Arial, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #FBFFFF;
 }
 
 .intro p {
@@ -765,24 +762,24 @@ header {
 	border-radius: 6px;
 }
 
-.our-contacts h3 {
+.contacts h3 {
 	font-size: 20px;
 	font-weight: Normal;
     font-family: Gilroy-Bold, Arial, sans-serif;
 }
 
-.our-contacts-schedule {
+.contacts-schedule {
 	font-size: 10px;
 	color: #605F60;
 }
 
-.our-contacts-tel {
+.contacts-tel {
 	font-size: 24px;
 	font-weight: Normal;
     font-family: Gilroy-Bold, Arial, sans-serif;
 }
 
-.our-contacts-callback {
+.contacts-callback {
 	font-size: 15px;
 	font-weight: Normal;
     font-family: Gilroy-Bold, Arial, sans-serif;
@@ -792,27 +789,40 @@ header {
     border-bottom: 1px dashed;
 }
 
-.our-contacts-btn {
+.contacts-btn {
 	background-color: #84B63D;
 	width: 238px;
 	height: 44px;
 }
 
-.our-contacts-btn>img {
+.contacts-btn>img {
 	margin-left: 24px;
 }
 
-.our-contacts iframe {
+.contacts iframe {
 	width: 730px;
 	height: 270px;
 	border: none;
 }
 
-.footer-rights {
+.footer {
+	font-weight: Normal;
+  font-family: Gilroy-Medium, Arial, sans-serif;
+  background-color: #373739;
+  padding: 32px 80px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.footer__bottom_left {
 	font-size: 15px;
 }
 
-.footer-policy {
+.footer__bottom_right {
 	font-size: 15px;
 	color: #E5B53E;
 	text-decoration: underline;
