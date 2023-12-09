@@ -1,45 +1,65 @@
+@import url('./scss/style_add.css');
+
 @font-face {
 	font-family: 'Gilroy-Regular';
-	src: url('../fonts/gilroy-regular.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gilroy-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/gilroy-regular.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/gilroy-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/gilroy-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gilroy-regular.svg#gilroy-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('../fonts/gilroy-regular.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-regular.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-regular.svg#gilroy-regular') format('svg');
+	/* Chrome < 4, Legacy iOS */
 }
 
 @font-face {
 	font-family: 'Gilroy-Bold';
-	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('../fonts/gilroy-bold.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg');
+	/* Chrome < 4, Legacy iOS */
 }
 
 @font-face {
 	font-family: 'Gilroy-Medium';
-	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('../fonts/gilroy-medium.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg');
+	/* Chrome < 4, Legacy iOS */
 }
 
 .wrapper {
-    background-color: #F5F6FA;
-    font-family: Gilroy-Regular, Arial, sans-serif;
+	background-color: #F5F6FA;
+	font-family: Gilroy-Regular, Arial, sans-serif;
 	font-size: 13px;
 }
 
 button {
 	background-color: #FEAA01;
 	font-weight: 600;
-    color: white;
-    border: none;
-    border-radius: 4px;
+	color: white;
+	border: none;
+	border-radius: 4px;
 	margin: 10px 10px 10px 0;
 }
 
@@ -52,16 +72,21 @@ h2 {
 	margin: 0 auto 45px;
 }
 
-h1, h2, h3, h4 {
-    font-weight: 400;
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 400;
 }
 
-h1>b, h2>b {
-    font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
+h1>b,
+h2>b {
+	font-weight: Normal;
+	font-family: Gilroy-Bold, Arial, sans-serif;
 }
 
-button>img, a>img {
+button>img,
+a>img {
 	vertical-align: middle;
 }
 
@@ -79,10 +104,10 @@ header {
 }
 
 .mark-4-9 {
-    background-image: url("../images/Zakladka.svg");
-    background-repeat: no-repeat;
+	background-image: url("../images/Zakladka.svg");
+	background-repeat: no-repeat;
 	font-size: 20px;
-	color:white;
+	color: white;
 }
 
 .header-btn {
@@ -99,7 +124,8 @@ header {
 	text-decoration: underline;
 }
 
-.header-online, .header-connect> :first-child {
+.header-online,
+.header-connect> :first-child {
 	color: #D2D3D6;
 	font-size: 10px;
 }
@@ -112,14 +138,14 @@ header {
 	font-weight: 600;
 	color: #87BF3C;
 	text-decoration: none;
-  border-bottom: 1px dashed;
+	border-bottom: 1px dashed;
 }
 
 .main-nav {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 	font-weight: Normal;
-  font-family: Gilroy-Medium, Arial, sans-serif;
+	font-family: Gilroy-Medium, Arial, sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
 	color: #FBFFFF;
@@ -179,7 +205,7 @@ header {
 }
 
 .for-Kursk__title_bold {
-    font-family: Gilroy-Bold, Arial, sans-serif;
+	font-family: Gilroy-Bold, Arial, sans-serif;
 }
 
 .cards {
@@ -206,6 +232,9 @@ header {
 	padding: 30px 30px 22px 40px;
 	margin-bottom: 30px;
 	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .card_big {
@@ -214,27 +243,27 @@ header {
 }
 
 .card_bg1 {
-	background-image:  url("../images/house1.jpg");
+	background-image: url("../images/house1.jpg");
 }
 
 .card_bg2 {
-	background-image:  url("../images/house2.jpg");
+	background-image: url("../images/house2.jpg");
 }
 
 .card_bg3 {
-	background-image:  url("../images/house3.jpg");
+	background-image: url("../images/house3.jpg");
 }
 
 .card_bg4 {
-	background-image:  url("../images/house4.jpg");
+	background-image: url("../images/house4.jpg");
 }
 
 .card_bg5 {
-	background-image:  url("../images/house5.jpg");
+	background-image: url("../images/house5.jpg");
 }
 
 .card_bg6 {
-	background-image:  url("../images/house6.jpg");
+	background-image: url("../images/house6.jpg");
 }
 
 .card__title {
@@ -295,7 +324,7 @@ header {
 	color: #FCFCFE;
 	text-decoration: none;
 	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
+	font-family: Gilroy-Bold, Arial, sans-serif;
 	text-align: center;
 	padding: 11px 17px;
 	position: absolute;
@@ -309,521 +338,534 @@ header {
 	bottom: 45px;
 }
 
-.popular {
-	margin-top: 90px;
-}
-
-.popular__title {
-	width: 1106px;
-	text-align: center;
-	line-height: 1;
-	margin: auto;
-	font-size: 47px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.nav-for-cards {
-	width: 1106px;
-	margin: 54px auto 32px;
-}
-
-.nav-for-cards__all {
-	color: #F7D047;
-	text-decoration: none;
-	border-bottom: 1px dashed;
-}
-
-.nav-for-ataman {
-	display: inline-block;
-	margin-right: 48px;
-	
-}
-
-.nav-for-ataman__btn {
-	background-color: #EFEFEF;
-    color: #5C5F66;
-	font-size: 13px;
-	font-weight: normal;
-	padding: 5px 10px;
-    margin: 6px;
-}
-
-.nav-for-ataman__btn_green {
-	background-color: #73B918;
-	color: white;
-}
-
-.cards-ataman {
-	width: 1114px;
-	margin: 0 auto;
-}
-
-.card-ataman {
-	display: inline-block;
-	width: 350px;
-	height: 505px;
-	border-radius: 14px;
-	background-color: white;
-	margin: 0 28px 24px 0;
-}
-
-.card-ataman_mr0 {
-	margin-right: 0;
-}
-
-.card-ataman_mb0 {
-	margin-bottom: 0;
-}
-
-.card-ataman-info {
-	padding: 28px;
-}
-
-.card-ataman-info__title {
-	margin: 0 0 16px;
-	line-height: 1;
-	font-size: 29px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.card-ataman-info__circle {
-	display: inline-block;
-	width: 5px;
-	height: 5px;
-	background: #85B440;
-	border-radius: 50%;
-	margin-right: 4px;
-}
-
-.card-ataman-info__square-period {
-	margin-bottom: 8px;
-}
-
-.card-ataman-info__square-period_bold {
-	font-weight: bold;
-}
-
-.card-ataman-info__square-period_right {
-	float: right;
-}
-
-.card-ataman-info__sizes-rooms {
-	margin-bottom: 17px;
-}
-
-.card-ataman-info__sizes-rooms_bold {
-	font-weight: bold;
-}
-
-.card-ataman-info__sizes-rooms_right {
-	float: right;
-}
-
-.card-ataman-info__type {
-	margin-bottom: 5px;
-}
-
-.card-ataman-info__type_right {
-	float: right;
-	font-weight: bold;
-}
-
-.card-ataman-info__cost {
-	margin-bottom: 28px;
-}
-
-.card-ataman-info__cost_right {
-	float: right;
-	font-weight: bold;
-}
-
-.card-ataman-info__cost_bottom {
-	vertical-align: -18px;
-}
-
-.card-ataman-info__cost_green {
-	font-size: 31px;
-	font-weight: normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-	color: #73B918;
-}
-
-.card-ataman-info__btn {
-	display: inline-block;
-	background-color: #FEAA01;
-	padding: 12px 26px 12px;
-	border-radius: 5px;
-	color: #FCFCFE;
-	text-decoration: none;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.card-ataman-info__btn_img {
-	margin: 0 0 3px 10px;
-}
-
-.card-ataman-info__special {
-	width: 90px;
-	float: right;
-	text-align: right;
-	margin-top: 11px;
-	font-size: 9px;
-	color: #B8B8BA;
-}
-
-.card-ataman-info__special_img {
-	display: block;
-	float: left;
-	margin-top: 4px;
-}
-
-.Your-house>nav>button {
-    background-color: #EFEFEF;
-    color: #333438;
-    width: 158px;
-	height: 40px;
-	border-radius: 7px;
-    margin: 15px;
-	font-size: 18px;
-}
-
-.Your-house>nav>.green-btn {
-    background-color: rgb(103, 182, 30);
-}
-
-.Your-house h3 {
-	font-size: 35px;
-	color: #4C4F56;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.Your-house-agreement {
-	font-size: 18px;
-	color: #4C4F56;
-}
-
-.Your-house-download {
-	font-size: 15px;
-	color: #505457;
-	text-decoration: none;
-}
-
-.gifts h3 {
-	font-size: 27px;
-	font-weight: 600;
-}
-
-.gifts-btn {
-	display: inline-block;
-	background-color: white;
-	border-radius: 5px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: black;
-	padding: 14px 56px;
-}
-
-.gifts-discount-15 {
-	font-size: 34px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.gifts-discount-percent {
-	font-size: 14px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.gifts-discount-discount {
-	font-size: 10px;
-}
-
-.we-have-built-period {
-	background-color: #fff;
-	width: 186px;
-	height: 20px;
-	border-radius: 13px;
-	font-size: 11px;
-	color: #333438;
-	padding: 7px 0 0 30px;;
-}
-
-.we-have-built h3 {
-	font-size: 36px;
-	color: #4C4F56;
-	font-weight: 600;
-}
-
-.house-in-Pestovo-map {
-	font-size: 18px;
-	color: #85B73E;
-	text-decoration: dashed; /*По непонятной причине данная строчка не работает! */
-}
-
-.house-in-Pestovo-title {
-	color: #8E9093;
-}
-
-.house-in-Pestovo-number {
-	color: #434749;
-	font-size: 28px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.house-in-Pestovo-unit {
-	color: #434749;
-	font-size: 16px;
-}
-
-.house-in-Pestovo-param {
-	font-size: 18px;
-	color: #56595F;
-}
-
-.house-in-Pestovo-cost {
-	font-size: 18px;
-	color: #56595F;
-}
-
-.house-in-Pestovo-btn {
-	width: 234px;
-	height: 44px;
-}
-
-.house-in-Pestovo-btn>img {
-	margin-left: 25px;
-}
-
-.free-tour h2 {
-	font-size: 36px;
-}
-
-.free-tour-text {
-	font-size: 18px;
-	color: #4C4F56;
-}
-
-.free-tour-content img {
-	vertical-align: bottom;
-}
-
-.free-tour-form-title {
-	color: #413E3F;
-}
-
-.free-tour-form-input {
-	background-color: #EFEFEF;
-	width: 220px;
-	height: 40px;
-	color: #413E3F;
-	font-size: 17px;
-	border-style: none;
-}
-
-.free-tour-form-button {
-	width: 222px;
-	height: 40px;
-}
-
-.privacy {
-	font-size: 9px;
-	color: #413E3F;
-}
-
-.projects-catalog h3 {
-	font-size: 24px;
-	color: #4C4F56;
-}
-
-.projects-catalog-collec {
-	font-size: 16px;
-	color: #4C4F56;
-}
-
-.form-of-communication-tel {
-	background-color: #EFEFEF;
-	width: 258px;
-	height: 42px;
-	border-radius: 5px;
-	border-style: none;
-	font-size: 21px;
-	color: #7A7D81;
-}
-
-.form-of-communication-button {
-	width: 258px;
-	height: 42px;
-	border-radius: 5px;
-}
-
-.social-networks {
-	color: #706F75;
-}
-
-.reviews-date {
-	color: #6D7176;
-}
-
-.reviews h3 {
-	font-size: 20px;
-	color: #363539;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.reviews h3 img {
-	vertical-align: middle;
-}
-
-.About-me-text {
-	color: #6F7276;
-}
-
-.About-me-text-number {
-	font-size: 47px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.About-me-text-text {
-	font-size: 18px;
-	color: #434749;
-}
-
-.About-me-info img {
-	vertical-align: super;
-	margin-right: 5px;
-}
-
-.questions-text {
-	font-size: 11px;
-	color: #565962;
-}
-
-.questions-questions>button {
-	background-color: #EFEFEF;
-	width: 540px;
-	height: 50px;
-	border-radius: 3px;
-	font-size: 16px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-	color: #585B63;
-	margin: 4px 8px 4px 0;
-}
-
-.estimate h2 {
-	font-size: 36px;
-}
-
-.estimate-p {
-	font-size: 16px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-	color: #494B50;
-}
-
-.estimate-answers img {
-	vertical-align: middle;
-}
-
-.estimate h3 {
-	font-size: 18px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.estimate-social-networks {
-	font-size: 14px;
-	color: #706F75;
-}
-
-.estimate-form-tel {
-	background-color: #EFEFEF;
-	font-size: 23px;
-	color: #7A7D81;
-	height: 46px;
-	width: 260px;
-	border-radius: 5px;
-	border-style: none;
-}
-
-.estimate-form-btn {
-	width: 264px;
-	height: 44px;
-	border-radius: 6px;
-}
-
-.contacts h3 {
-	font-size: 20px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.contacts-schedule {
-	font-size: 10px;
-	color: #605F60;
-}
-
-.contacts-tel {
-	font-size: 24px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-}
-
-.contacts-callback {
-	font-size: 15px;
-	font-weight: Normal;
-    font-family: Gilroy-Bold, Arial, sans-serif;
-	color: #8CB746;
-	text-decoration: none;
-	text-decoration: none;
-    border-bottom: 1px dashed;
-}
-
-.contacts-btn {
-	background-color: #84B63D;
-	width: 238px;
-	height: 44px;
-}
-
-.contacts-btn>img {
-	margin-left: 24px;
-}
-
-.contacts iframe {
-	width: 730px;
-	height: 270px;
-	border: none;
-}
-
-.footer {
-	font-weight: Normal;
-  font-family: Gilroy-Medium, Arial, sans-serif;
-  background-color: #373739;
-  padding: 32px 80px;
-}
-
-.footer__bottom {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 56px;
-}
-
-.footer__bottom_left {
-	font-size: 15px;
-}
-
-.footer__bottom_right {
-	font-size: 15px;
-	color: #E5B53E;
-	text-decoration: underline;
-}
+@media (max-width: 575px) {
+	.cards {
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 100%;
+		height: max-content;
+	}
+
+	.cards__col {
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+		width: auto;
+		height: max-content;
+	}
+
+	.card {
+		/* min-height: 100%; */
+		/* height: max-content; */
+		/* background-size: cover; */
+	}
+
+	.card_big {
+		/* max-height: 100%;
+		background-size: cover; */
+	}
+
+	@media (min-width: 576px) and (max-width: 1240px) {
+		.contacts {
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+
+		.contacts__block {
+			display: block;
+			width: auto;
+		}
+
+		.contacts__block_left {
+			margin-right: 0;
+			margin-bottom: 50px;
+		}
+
+		.contacts__text {
+			display: inline-block;
+			width: calc(50% - 20px);
+		}
+
+		.contacts__text_left {
+			margin-right: 20px;
+		}
+	}
+
+	.popular {
+		margin-top: 90px;
+	}
+
+	.popular__title {
+		width: 1106px;
+		text-align: center;
+		line-height: 1;
+		margin: auto;
+		font-size: 47px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.nav-for-cards {
+		width: 1106px;
+		margin: 54px auto 32px;
+	}
+
+	.nav-for-cards__all {
+		color: #F7D047;
+		text-decoration: none;
+		border-bottom: 1px dashed;
+	}
+
+	.nav-for-ataman {
+		display: inline-block;
+		margin-right: 48px;
+
+	}
+
+	.nav-for-ataman__btn {
+		background-color: #EFEFEF;
+		color: #5C5F66;
+		font-size: 13px;
+		font-weight: normal;
+		padding: 5px 10px;
+		margin: 6px;
+	}
+
+	.nav-for-ataman__btn_green {
+		background-color: #73B918;
+		color: white;
+	}
+
+	.cards-ataman {
+		width: 1114px;
+		margin: 0 auto;
+	}
+
+	.card-ataman {
+		display: inline-block;
+		width: 350px;
+		height: 505px;
+		border-radius: 14px;
+		background-color: white;
+		margin: 0 28px 24px 0;
+	}
+
+	.card-ataman_mr0 {
+		margin-right: 0;
+	}
+
+	.card-ataman_mb0 {
+		margin-bottom: 0;
+	}
+
+	.card-ataman-info {
+		padding: 28px;
+	}
+
+	.card-ataman-info__title {
+		margin: 0 0 16px;
+		line-height: 1;
+		font-size: 29px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.card-ataman-info__circle {
+		display: inline-block;
+		width: 5px;
+		height: 5px;
+		background: #85B440;
+		border-radius: 50%;
+		margin-right: 4px;
+	}
+
+	.card-ataman-info__square-period {
+		margin-bottom: 8px;
+	}
+
+	.card-ataman-info__square-period_bold {
+		font-weight: bold;
+	}
+
+	.card-ataman-info__square-period_right {
+		float: right;
+	}
+
+	.card-ataman-info__sizes-rooms {
+		margin-bottom: 17px;
+	}
+
+	.card-ataman-info__sizes-rooms_bold {
+		font-weight: bold;
+	}
+
+	.card-ataman-info__sizes-rooms_right {
+		float: right;
+	}
+
+	.card-ataman-info__type {
+		margin-bottom: 5px;
+	}
+
+	.card-ataman-info__type_right {
+		float: right;
+		font-weight: bold;
+	}
+
+	.card-ataman-info__cost {
+		margin-bottom: 28px;
+	}
+
+	.card-ataman-info__cost_right {
+		float: right;
+		font-weight: bold;
+	}
+
+	.card-ataman-info__cost_bottom {
+		vertical-align: -18px;
+	}
+
+	.card-ataman-info__cost_green {
+		font-size: 31px;
+		font-weight: normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+		color: #73B918;
+	}
+
+	.card-ataman-info__btn {
+		display: inline-block;
+		background-color: #FEAA01;
+		padding: 12px 26px 12px;
+		border-radius: 5px;
+		color: #FCFCFE;
+		text-decoration: none;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.card-ataman-info__btn_img {
+		margin: 0 0 3px 10px;
+	}
+
+	.card-ataman-info__special {
+		width: 90px;
+		float: right;
+		text-align: right;
+		margin-top: 11px;
+		font-size: 9px;
+		color: #B8B8BA;
+	}
+
+	.card-ataman-info__special_img {
+		display: block;
+		float: left;
+		margin-top: 4px;
+	}
+
+	.Your-house>nav>button {
+		background-color: #EFEFEF;
+		color: #333438;
+		width: 158px;
+		height: 40px;
+		border-radius: 7px;
+		margin: 15px;
+		font-size: 18px;
+	}
+
+	.Your-house>nav>.green-btn {
+		background-color: rgb(103, 182, 30);
+	}
+
+	.Your-house h3 {
+		font-size: 35px;
+		color: #4C4F56;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.Your-house-agreement {
+		font-size: 18px;
+		color: #4C4F56;
+	}
+
+	.Your-house-download {
+		font-size: 15px;
+		color: #505457;
+		text-decoration: none;
+	}
+
+	.gifts h3 {
+		font-size: 27px;
+		font-weight: 600;
+	}
+
+	.gifts-btn {
+		display: inline-block;
+		background-color: white;
+		border-radius: 5px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: black;
+		padding: 14px 56px;
+	}
+
+	.gifts-discount-15 {
+		font-size: 34px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.gifts-discount-percent {
+		font-size: 14px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.gifts-discount-discount {
+		font-size: 10px;
+	}
+
+	.we-have-built-period {
+		background-color: #fff;
+		width: 186px;
+		height: 20px;
+		border-radius: 13px;
+		font-size: 11px;
+		color: #333438;
+		padding: 7px 0 0 30px;
+		;
+	}
+
+	.we-have-built h3 {
+		font-size: 36px;
+		color: #4C4F56;
+		font-weight: 600;
+	}
+
+	.house-in-Pestovo-map {
+		font-size: 18px;
+		color: #85B73E;
+		text-decoration: dashed;
+		/*По непонятной причине данная строчка не работает! */
+	}
+
+	.house-in-Pestovo-title {
+		color: #8E9093;
+	}
+
+	.house-in-Pestovo-number {
+		color: #434749;
+		font-size: 28px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.house-in-Pestovo-unit {
+		color: #434749;
+		font-size: 16px;
+	}
+
+	.house-in-Pestovo-param {
+		font-size: 18px;
+		color: #56595F;
+	}
+
+	.house-in-Pestovo-cost {
+		font-size: 18px;
+		color: #56595F;
+	}
+
+	.house-in-Pestovo-btn {
+		width: 234px;
+		height: 44px;
+	}
+
+	.house-in-Pestovo-btn>img {
+		margin-left: 25px;
+	}
+
+	.free-tour h2 {
+		font-size: 36px;
+	}
+
+	.free-tour-text {
+		font-size: 18px;
+		color: #4C4F56;
+	}
+
+	.free-tour-content img {
+		vertical-align: bottom;
+	}
+
+	.free-tour-form-title {
+		color: #413E3F;
+	}
+
+	.free-tour-form-input {
+		background-color: #EFEFEF;
+		width: 220px;
+		height: 40px;
+		color: #413E3F;
+		font-size: 17px;
+		border-style: none;
+	}
+
+	.free-tour-form-button {
+		width: 222px;
+		height: 40px;
+	}
+
+	.privacy {
+		font-size: 9px;
+		color: #413E3F;
+	}
+
+	.projects-catalog h3 {
+		font-size: 24px;
+		color: #4C4F56;
+	}
+
+	.projects-catalog-collec {
+		font-size: 16px;
+		color: #4C4F56;
+	}
+
+	.form-of-communication-tel {
+		background-color: #EFEFEF;
+		width: 258px;
+		height: 42px;
+		border-radius: 5px;
+		border-style: none;
+		font-size: 21px;
+		color: #7A7D81;
+	}
+
+	.form-of-communication-button {
+		width: 258px;
+		height: 42px;
+		border-radius: 5px;
+	}
+
+	.social-networks {
+		color: #706F75;
+	}
+
+	.reviews-date {
+		color: #6D7176;
+	}
+
+	.reviews h3 {
+		font-size: 20px;
+		color: #363539;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.reviews h3 img {
+		vertical-align: middle;
+	}
+
+	.About-me-text {
+		color: #6F7276;
+	}
+
+	.About-me-text-number {
+		font-size: 47px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.About-me-text-text {
+		font-size: 18px;
+		color: #434749;
+	}
+
+	.About-me-info img {
+		vertical-align: super;
+		margin-right: 5px;
+	}
+
+	.questions-text {
+		font-size: 11px;
+		color: #565962;
+	}
+
+	.questions-questions>button {
+		background-color: #EFEFEF;
+		width: 540px;
+		height: 50px;
+		border-radius: 3px;
+		font-size: 16px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+		color: #585B63;
+		margin: 4px 8px 4px 0;
+	}
+
+	.estimate h2 {
+		font-size: 36px;
+	}
+
+	.estimate-p {
+		font-size: 16px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+		color: #494B50;
+	}
+
+	.estimate-answers img {
+		vertical-align: middle;
+	}
+
+	.estimate h3 {
+		font-size: 18px;
+		font-weight: Normal;
+		font-family: Gilroy-Bold, Arial, sans-serif;
+	}
+
+	.estimate-social-networks {
+		font-size: 14px;
+		color: #706F75;
+	}
+
+	.estimate-form-tel {
+		background-color: #EFEFEF;
+		font-size: 23px;
+		color: #7A7D81;
+		height: 46px;
+		width: 260px;
+		border-radius: 5px;
+		border-style: none;
+	}
+
+	.estimate-form-btn {
+		width: 264px;
+		height: 44px;
+		border-radius: 6px;
+	}
+
+	.footer {
+		font-weight: Normal;
+		font-family: Gilroy-Medium, Arial, sans-serif;
+		background-color: #373739;
+		padding: 32px 80px;
+	}
+
+	.footer__bottom {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 56px;
+	}
+
+	.footer__bottom_left {
+		font-size: 15px;
+		color: white;
+	}
+
+	.footer__bottom_right {
+		font-size: 15px;
+		color: #E5B53E;
+		text-decoration: underline;
+	}
