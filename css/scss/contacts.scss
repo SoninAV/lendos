@@ -149,6 +149,7 @@
 }
 @media (min-width: 576px) and (max-width: 1240px) {
     .contacts {
+        padding-top: 30px;
         padding-left: 40px;
         padding-right: 40px;
         &__block {
@@ -158,6 +159,9 @@
                 margin-right: 0;
                 margin-bottom: 50px;
             }
+        }
+        &__link_phone {
+            font-size: 20px;
         }
         &__text {
             display: inline-block;
