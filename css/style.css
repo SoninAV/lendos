@@ -844,16 +844,16 @@ header {
 @media (max-width: 575px) {
 	.gifts__title {
 		display: inline-block;
-		margin: 0 20px 20px;
-		width: 90vw;
+		margin: 0 15vw 20px 5vw;
+		width: 80vw;
 		font-size: 20px;
 	}
 	.gifts__block {
 		display: block;
 		width: 80vw;
 		max-width: 600px;
-		margin-right: 10vw;
-		margin-left: 10vw;
+		margin-right: 15vw;
+		margin-left: 5vw;
 	}
 	.gifts__block_first {
 		margin-bottom: 5vw;
@@ -1131,7 +1131,7 @@ header {
 @media (max-width: 500px) {
 	.pestovo__title {
 		display: inline-block;
-		margin: 0 10vw 15px;
+		margin: 0 15vw 15px 5vw;
 		width: 80vw;
 		font-size: 20px;
 	}
@@ -1139,8 +1139,8 @@ header {
 		display: block;
 		width: 80vw;
 		max-width: 600px;
-		margin-right: 10vw;
-		margin-left: 10vw;
+		margin-right: 15vw;
+		margin-left: 5vw;
 		margin-bottom: 7vw;
 	}
 	.pestovo__info {
@@ -1186,12 +1186,6 @@ header {
 	.pestovo__text {
 		font-size: 10px;
 		margin-bottom: 20px;
-	}
-	.pestovo__btn {
-		font-size: 12px;
-		width: 200px;
-		height: 34px;
-		margin: 0;
 	}
 }
 
