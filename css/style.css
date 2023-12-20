@@ -1,4 +1,4 @@
-@import url('./scss/style_add.css');
+@import url('./scss/contacts.css');
 
 @font-face {
 	font-family: 'Gilroy-Regular';
@@ -349,7 +349,7 @@ header {
 		width: auto;
 		margin-left: 20px;
 		margin-right: 20px;
-		font-size: 36px;
+		font-size: 20px;
 	}
 
 	.cards {
@@ -361,6 +361,48 @@ header {
 	.cards__col {
 		display: block;
 		width: 100%;
+	}
+
+	.card {
+		padding: 20px;
+	}
+
+	.card__title {
+		margin: 0;
+		font-size: 16px;
+		font-weight: 600;
+		width: 50%;
+	}
+	
+	.card__title_big {
+		font-size: 18px;
+	}
+
+	.card__btn {
+		font-size: 7px;
+		padding: 6px 8px;
+	}
+
+	.card__price {
+		font-size: 8px;
+	}
+
+	.card__price_big {
+		font-size: 10px;
+	}
+	
+	.card__price_num-big {
+		font-size: 16px;
+	}
+
+	.card__price_num-bigger {
+		font-size: 20px;
+	}
+
+	.card__projects-100 {
+		padding: 6px 8px;
+		font-size: 8px;
+		line-height: 1;
 	}
 }
 
@@ -798,7 +840,58 @@ header {
 .gifts__discount_middle {
 	font-size: 14px;
 }
-@media (max-width: 800px) {
+
+@media (max-width: 575px) {
+	.gifts__title {
+		display: inline-block;
+		margin: 0 20px 20px;
+		width: 90vw;
+		font-size: 20px;
+	}
+	.gifts__block {
+		display: block;
+		width: 80vw;
+		max-width: 600px;
+		margin-right: 10vw;
+		margin-left: 10vw;
+	}
+	.gifts__block_first {
+		margin-bottom: 5vw;
+	}
+	.gifts__subtitle {
+		width: 70%;
+		font-size: 14px;
+		top: 15px;
+		left: 20px;
+	}
+	.gifts__text {
+		top: 50px;
+		left: 20px;
+		width: 60%;
+		font-size: 8px;
+	}
+	.gifts__btn {
+		font-size: 8px;
+		padding: 6px 12px;
+		bottom: 15px;
+		left: 20px;
+	}
+	.gifts__discount {
+		width: 15%;
+		bottom: 50px;
+		right: 20px;
+		padding: 10px 6px 10px 16px;
+		font-size: 8px;
+	}
+	.gifts__discount_big {
+		font-size: 16px;
+	}
+	.gifts__discount_middle {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
 	.gifts__title {
 		display: inline-block;
 		margin: 0 20px 20px;
@@ -817,7 +910,6 @@ header {
 	}
 	.gifts__subtitle {
 		font-size: 20px;
-		font-weight: 600;
 		top: 30px;
 		left: 30px;
 	}
@@ -1036,7 +1128,75 @@ header {
 	margin: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 500px) {
+	.pestovo__title {
+		display: inline-block;
+		margin: 0 10vw 15px;
+		width: 80vw;
+		font-size: 20px;
+	}
+	.pestovo__block {
+		display: block;
+		width: 80vw;
+		max-width: 600px;
+		margin-right: 10vw;
+		margin-left: 10vw;
+		margin-bottom: 7vw;
+	}
+	.pestovo__info {
+		width: auto;
+		height: auto;
+		font-size: 10px;
+		padding: 4px 10px;
+		position: absolute;
+		top: 30px;
+		right: 20px;
+	}
+	.pestovo__img {
+		width: 22%;
+	}
+	.pestovo__map-text {
+		font-size: 14px;
+	}
+	.pestovo__subtitle {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.pestovo__item_small {
+		width: 15%;
+		font-size: 10px;
+	}
+	.pestovo__item_big {
+		font-size: 14px;
+		display: block;
+		margin: 4px 0 0;
+	}
+	.pestovo__item_mdl {
+		font-size: 10px;
+	}
+	.pestovo__param-wrapper {
+		margin-top: 30px;
+	}
+	.pestovo__param {
+		font-size: 12px;
+	}
+	.pestovo__calc {
+		margin-top: 25px;
+	}
+	.pestovo__text {
+		font-size: 10px;
+		margin-bottom: 20px;
+	}
+	.pestovo__btn {
+		font-size: 12px;
+		width: 200px;
+		height: 34px;
+		margin: 0;
+	}
+}
+
+
+@media (min-width: 501px) and (max-width: 900px) {
 	.pestovo__title {
 		display: inline-block;
 		margin: 0 10vw 30px;
@@ -1049,8 +1209,6 @@ header {
 		max-width: 600px;
 		margin-right: 10vw;
 		margin-left: 10vw;
-	}
-	.pestovo__block {
 		margin-bottom: 7vw;
 	}
 	.pestovo__subtitle {
