@@ -1,0 +1,18 @@
+.fa-star {
+    color: orange;
+}
+
+.fa-envelope {
+    color: #84B73D;
+}
+
+header .circled {
+    border: 1px solid orange;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 0 5px;
+}
+
+header {
+    padding-top: 24px;
+}

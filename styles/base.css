@@ -1,0 +1,47 @@
+section {
+    margin: 0 164px 140px;
+}
+
+body {
+    background-color: #F5F6FA;
+}
+
+button {
+    background-color: orange;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.house-card>button{
+    background-color: rgb(103, 182, 30);
+}
+
+header,
+.intro {
+    background-image: url("../images/header/house.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding-left:164px;
+    padding-right:164px;
+}
+
+.green {
+    background-color: rgb(103, 182, 30);
+}
+
+.grey {
+    background-color: rgb(219, 219, 219);
+    color: black;
+    width: 100px;
+    margin: 15px;
+}
+
+.fa-heart,.fa-magnifying-glass {
+    color: orange;
+}
