@@ -1,0 +1,120 @@
+.for-Kursk__cards {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.for-Kursk__card_box_1 {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.for-Kursk__card_box_7 {
+    grid-column: 3;
+    grid-row: 2 / 4;
+}
+
+.for-Kursk__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    aspect-ratio: 348 / 161;
+    padding: 30px 32px 22px 40px;
+}
+
+.for-Kursk__card_big {
+    aspect-ratio: 348 / 351;
+    padding: 44px;
+}
+
+.for-Kursk__card-btn {
+    width: fit-content;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: #84B73D;
+    padding: 16px 26px;
+    border-radius: 4px;
+    padding: 11px 16px;
+    border-radius: 3px;
+}
+
+.for-Kursk__card-btn_big {
+    padding: 14px 30px;
+    border-radius: 4px;
+}
+
+.for-Kursk__card-title {
+    font-size: 23px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.for-Kursk__card-title_big {
+    font-size: 30px;
+}
+
+.for-Kursk__card-info {
+    font-size: 9px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    height: fit-content;
+    padding: 6px 8px;
+    border-radius: 12px;
+}
+
+.for-Kursk__card-price {
+    font-size: 13px;
+}
+
+.for-Kursk__card-price_big {
+    margin-top: auto;
+    margin-bottom: 1em;
+}
+
+.for-Kursk__card-price span {
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.for-Kursk__card-price_big span {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.for-Kursk__card_bcgr-1 {
+    background-image: url(../images/for-Kursk/house1.jpg);
+}
+
+.for-Kursk__card_bcgr-2 {
+    background-image: url(../images/for-Kursk/house2.jpg);
+}
+
+.for-Kursk__card_bcgr-3 {
+    background-image: url(../images/for-Kursk/house3.jpg);
+}
+
+.for-Kursk__card_bcgr-4 {
+    background-image: url(../images/for-Kursk/house4.jpg);
+}
+
+.for-Kursk__card_bcgr-5 {
+    background-image: url(../images/for-Kursk/house5.jpg);
+}
+
+.for-Kursk__card_bcgr-6 {
+    background-image: url(../images/for-Kursk/house6.jpg);
+}
+
+.for-Kursk__card_bcgr-7 {
+    background-image: url(../images/for-Kursk/house1.jpg);
+}

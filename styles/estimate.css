@@ -1,0 +1,98 @@
+.estimate {
+    position: relative;
+    display: flex;
+    border-radius: 100px 0px;
+    background-color: #fff;
+}
+
+.estimate::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -110px;
+    left: -140px;
+    background-image: url("../images/common/tree.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: calc(28.6% * 3);
+    height: calc(25.8% * 3);
+}
+
+.estimate::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: -150px;
+    right: -755px;
+    background-image: url("../images/estimate/compass.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: calc(28.6% * 3);
+    height: calc(25.8% * 3);
+}
+
+.estimate__block {
+    padding-top: 50px;
+    padding-left: 80px;
+    flex: 0 0 65%;
+    background-image: url("../images/estimate/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.estimate__title {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.estimate__question {
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.estimate__advantages {
+    display: flex;
+    align-items: start;
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 1em;
+}
+
+.estimate__advantages img {
+    margin-right: 10px;
+}
+
+.estimate__aside {
+    padding: 40px 59px;
+    flex: 0 0 35%;
+}
+
+.estimate__aside-title {
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.estimate__aside-text {
+    font-size: 13px;
+    line-height: 14px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.estimate__button-for-file {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid #7FB63C;
+    border-radius: 4px;
+    color: #7FB63C;
+    margin-bottom: 14px;
+}
+
+.estimate__button-for-file i {
+    margin: 10px 10px 10px 0px;
+}

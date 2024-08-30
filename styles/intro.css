@@ -1,5 +1,52 @@
 .intro {
     padding-bottom: 24px;
-    margin-left: 0;
-    margin-right: 0;
+}
+
+.intro__title {
+    position: relative;
+    width: 45%;
+    margin-bottom: 16px;
+}
+
+.intro__title::after {
+    content: "";
+    position: absolute;
+    top: 666px;
+    left: -1300px;
+    background-image: url("../images/common/tree.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: calc(28.6% * 15);
+    height: calc(25.8% * 15);
+    transform: rotate(90deg);
+}
+
+.intro__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 42px;
+}
+
+.intro__button {
+    text-transform: uppercase;
+    background-color: #FEAA01;
+    border-radius: 4px;
+    padding: 20px 42px;
+    margin-bottom: 70px;
+}
+
+.intro__advantage {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.intro__advantage-el {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.intro__advantage-el img {
+    height: 30px;
+    margin-bottom: 5px;
 }

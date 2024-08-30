@@ -1,0 +1,43 @@
+.questions {
+    display: flex;
+    gap: 20px;
+}
+
+.questions__block {
+    flex: 1 1 0px;
+    width: 0px;
+}
+
+.questions__title {
+    text-align: left;
+    width: 90%;
+    margin-bottom: 0.5em;
+}
+
+.questions__text {
+    font-size: 11px;
+    line-height: 15px;
+    width: 40%;
+}
+
+.questions__btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #EFEFEF;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.questions__btn-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 10px 40px 10px 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}

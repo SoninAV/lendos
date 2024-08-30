@@ -3,3 +3,22 @@ footer {
     color: white;
     padding: 32px 80px;
 }
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.footer__btm {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer__btm-policy {
+    color: #E5B53E;
+    text-decoration: underline 1px;
+    text-underline-offset: 3px;
+}

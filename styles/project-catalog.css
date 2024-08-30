@@ -1,0 +1,41 @@
+.project-catalog {
+    display: flex;
+    justify-content: space-between;
+    height: 670px;
+    background-image: url("../images/project-catalog/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: 979px 704px;
+    background-position: 144px 60px;
+}
+
+.project-catalog__title {
+    width: 40%;
+    text-align: left;
+}
+
+.project-catalog__card {
+    margin-right: 88px;
+    width: 30%;
+    height: fit-content;
+    padding: 44px;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.project-catalog__card-title {
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.project-catalog__card-text {
+    width: 80%;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 26px;
+}

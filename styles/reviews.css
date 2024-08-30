@@ -1,0 +1,40 @@
+.reviews__content {
+    display: flex;
+    gap: 2.5%;
+}
+
+.reviews__card {
+    flex: 1 1 0px;
+    background-color: white;
+    padding: 2.7%;
+    border-radius: 14px;
+}
+
+.rewiews__card-head {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.reviews__card-img {
+    margin-right: 6%;
+}
+
+.reviews__card-name {
+    width: min-content;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.reviews__card-logo {
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+}
+
+.reviews__card-text {
+    width: 90%;
+    font-size: 14px;
+    line-height: 18px;
+}

@@ -1,18 +1,35 @@
-section {
-    margin: 0 164px 140px;
-}
-
 body {
+    font-family: Gilroy, sans-serif;
+    font-weight: 400;
     background-color: #F5F6FA;
 }
 
-button {
-    background-color: orange;
-    height: 30px;
+section {
+    width: 1104px;
+    margin: 0 auto 140px;
+}
+
+span {
+    font-weight: 700;
+}
+
+h1, h2 {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 52px;
     color: white;
-    border: none;
-    border-radius: 3px;
-    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.title-h2-small {
+    font-size: 36px;
+    line-height: 38px;
 }
 
 .house-card>button{
@@ -21,27 +38,158 @@ button {
 
 header,
 .intro {
+    width: 100%;
     background-image: url("../images/header/house.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: white;
-    padding-left:164px;
-    padding-right:164px;
+    padding-left: calc((100% - 1104px) / 2);
+    padding-right: calc((100% - 1104px) / 2);
+    margin: 0;
 }
 
-.green {
-    background-color: rgb(103, 182, 30);
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
 }
 
-.grey {
-    background-color: rgb(219, 219, 219);
-    color: black;
-    width: 100px;
-    margin: 15px;
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.fa-heart,.fa-magnifying-glass {
+.button_up {
+    text-transform: uppercase;
+}
+
+.button_orange {
+    background-color: #FEAA01;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 14px 24px;
+}
+
+.button_green {
+    color: white;
+    background-color: #84B73D;
+    padding: 16px 26px;
+    border-radius: 4px;
+}
+
+.button_green_small {
+    color: white;
+    background-color: #84B73D;
+    padding: 11px 16px;
+    border-radius: 3px;
+}
+
+.nav__item {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav__item i {
     color: orange;
+    margin-right: 10px;
+}
+
+.nav__item_circled {
+    border: solid 1px orange;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 3px 10px;
+}
+
+.form-1__question {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.form-1__block {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.form-1__block_mb_10-per {
+    margin-bottom: 10%;
+}
+
+.form-1__block-el {
+    width: 33.3%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.form-1__input[type="radio"] {
+    width: 0;
+    height: 0;
+}
+
+.form-1__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22%;
+    margin-bottom: 22%;
+}
+
+.form-1__block-el img {
+    width: 50%;
+}
+
+.form-1__block-el span {
+    margin-top: 5%;
+}
+
+.form-1__block-el:has(.form-1__input:checked) {
+    font-weight: 700;
+    box-shadow: 0px 4px 25px 0px #1C181F33;
+    border-radius: 5px;
+} 
+
+.form-1__phone-num {
+    background-color: #EFEFEF;
+    font-size: 21px;
+    padding: 12px 16px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 7%;
+}
+
+.form-1__phone-num_mb_10 {
+    margin-bottom: 10px;
+}
+
+.form-1__btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    padding: 1.2em;
+    border-radius: 6px;
+    background-color: orange;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.form-1__info {
+    width: 100%;
+    font-size: 9px;
+    line-height: 10px;
+    font-weight: 300;
+}
+
+.form-1__info a {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-weight: 600;
 }

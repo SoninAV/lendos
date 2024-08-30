@@ -1,3 +1,125 @@
 .we-built .fa-location-dot {
     color: #84B73D;
 }
+
+.we-built__wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.we-built__gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 4fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+    height: fit-content;
+}
+
+.we-built__gallery-screen {
+    width: 530px;
+    background-image: url("../images/we-built/house-big.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 535 / 346;
+    grid-column: 1 / 5;
+}
+
+.we-built__gallery-info {
+    font-size: 11px;
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+    padding: 6px 30px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.we-built__gallery-img {
+    width: 100%;
+}
+
+.we-built__content-location {
+    margin-bottom: 20px;
+}
+
+.we-built__content-location-text {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #85B73E;
+    text-decoration: underline dashed 1px; 
+    text-underline-offset: 4px;
+}
+
+.we-built__content-subtitle {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.we-built__content-block-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+}
+
+.we-built__content-block-1 * {
+    width: 33%;
+}
+
+.we-built__content-decor {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #F5BA40;
+    box-shadow: 0px 0px 6px 0px #FF5C00;
+    margin-bottom: 15px;
+}
+
+.we-built__content-small-text {
+    font-size: 12px;
+    color: grey;
+}
+
+.we-built__content-numbers span {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.we-built__content-block-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+}
+
+.we-built__content-text {
+    font-size: 18px;
+}
+
+.we-built__content-text_box_40per {
+    width: 40%;
+}
+
+.we-built__content-text_box_60per {
+    width: 60%;
+}
+
+.we-built__content-btm {
+    display: flex;
+    gap: 40px;
+}
+
+.we-built__content-btm-text {
+    font-size: 18px;
+}
+
+.we-built__content-btn {
+    font-size: 13px;
+}
+
+.we-built__content-btn p {
+    display: inline-block;
+    margin-right: 25px;
+}

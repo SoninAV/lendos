@@ -1,0 +1,48 @@
+
+.gifts__cards {
+    display: flex;
+    gap: 30px;
+}
+
+.gifts__card_first {
+    background-image: url("../images/gifts/house1.jpg");
+}
+
+.gifts__card_second {
+    background-image: url("../images/gifts/house2.jpg");
+}
+
+.gifts__card {
+    padding: 44px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 534 / 297;
+}
+
+.gifts__card-title {
+    font-size: 27px;
+    line-height: 1;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.gifts__card-text {
+    width: 60%;
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+    padding-bottom: 28px;
+}
+
+.gifts__card-btn {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 14px 56px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+

@@ -1,18 +1,146 @@
-.fa-star {
-    color: orange;
+.header {
+    padding-top: 24px;
 }
 
-.fa-envelope {
+.header__wrapper {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.header__logo {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.header__logo-img {
+    width: 72px;
+    height: 35px;
+}
+
+.header__logo-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: max-content;
+    font-size: 9px;
+    line-height: 10px;
+    color: #909195;
+}
+
+.header__rating {
+    display: flex;
+    gap: 24px;
+}
+
+.header__mark {
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header__mark::before {
+    content: url("../images/common/green-decor.png");
+    z-index: -1;
+    position: absolute;
+    top: -33px;
+    left: -10px;
+}
+
+.header__rating-text {
+    width: max-content;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.header__stars i {
+    color: #F3B840;
+    font-size: 8px;
+    vertical-align: top;
+}
+
+.header__button {
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #84B73D;
+    padding: 13px 27px;
+    margin-bottom: 1em;
+}
+
+.header__button i {
+    margin-left: 10px;
+}
+
+.header__email {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: baseline;
+    font-weight: 600;
+    font-size: 11px;
+    color: #96989F;
+}
+
+.header__email i {
     color: #84B73D;
 }
 
-header .circled {
-    border: 1px solid orange;
-    border-radius: 15px;
-    width: fit-content;
-    padding: 0 5px;
+.header__email p {
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
-header {
-    padding-top: 24px;
+.header__whatsapp img {
+    display: block;
+    width: 38px;
+    margin-left: 20px;
+}
+
+.header__whatsapp-block {
+    margin-bottom: 5px;
+}
+
+.header__small-circle {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #6ACF85;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.header__whatsapp span, .header__schedule span {
+    font-size: 10px;
+    color: #D2D3D6;
+    font-weight: 400;
+}
+
+.header__contacts {
+    width: fit-content;
+}
+
+.header__phone-num {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header__callback {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+    color: #87BF3C;
+    text-decoration: underline dashed 1px;
+    text-underline-offset: 4px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 85px;
 }

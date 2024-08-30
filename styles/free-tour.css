@@ -1,0 +1,104 @@
+.free-tour {
+    position: relative;
+    background-image: url("../images/free-tour/bg-house.jpg");
+    aspect-ratio: 1105 / 520;
+    border-radius: 100px 0;
+    padding-top: 62px;
+    padding-left: 74px;
+}
+
+.free-tour::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -110px;
+    left: -110px;
+    background-image: url("../images/common/tree.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: calc(28.6% * 3);
+    height: calc(25.8% * 3);
+}
+
+.free-tour__title {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.free-tour__text {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.free-tour__block {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    margin-bottom: 26px;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.free-tour__block-el {
+    display: flex;
+    align-items: start;
+}
+
+.free-tour__block-el img {
+    margin-right: 12px;
+}
+
+.free-tour__form-top {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.free-tour__form-text {
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.free-tour__date-input {
+    background-color: #EFEFEF;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px 20px;
+    width: 222px;
+}
+
+.free-tour__phone-num-input {
+    background-color: #EFEFEF;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px 20px;
+    width: 200px;
+}
+
+.free-tour__form-btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    padding: 13px 28px;
+    border-radius: 3px;
+    background-color: orange;
+    width: 222px;
+    margin-bottom: 9px;
+}
+
+.free-tour__form-text {
+    width: 222px;
+    font-size: 9px;
+    line-height: 10px;
+    font-weight: 300;
+}
+
+.free-tour__form-text a {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-weight: 600;
+}

@@ -1,12 +1,36 @@
-@import "base.css";
+@import "fonts.css";
 
 @import "reset.css";
+
+@import "base.css";
 
 @import "header.css";
 
 @import "intro.css";
 
+@import "cost.css";
+
+@import "for-Kursk.css";
+
+@import "popular.css";
+
+@import "your-house.css";
+
+@import "gifts.css";
+
 @import "we-built.css";
+
+@import "free-tour.css";
+
+@import "project-catalog.css";
+
+@import "reviews.css";
+
+@import "about-me.css";
+
+@import "questions.css";
+
+@import "estimate.css";
 
 @import "contacts.css";
 
