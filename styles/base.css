@@ -2,6 +2,7 @@ body {
     font-family: Gilroy, sans-serif;
     font-weight: 400;
     background-color: #F5F6FA;
+    overflow-x: hidden;
 }
 
 section {
