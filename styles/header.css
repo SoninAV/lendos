@@ -144,3 +144,83 @@
     justify-content: space-between;
     padding-bottom: 85px;
 }
+
+@media (1024px <= width < 1300px) {
+    .header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .header__wrapper {
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        margin-right: 0px;
+    }
+}
+
+@media (768px <= width < 1024px) {
+    .header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .header__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        margin-right: 222px;
+    }
+
+    .header__whatsapp {
+        margin-left: auto;
+    }
+
+    .header__nav .nav__item {
+        font-size: 14px;
+    }
+}
+
+@media (width < 768px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header__wrapper {
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-content: end;
+    }
+
+    .header__logo {
+        margin-right: 0px;
+    }
+
+    .header__mark::before {
+        content: none;
+    }
+
+    .header__email {
+        justify-content: start;
+    }
+
+    .header__whatsapp {
+        margin-left: 0px;
+    }
+
+    .header__nav {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__nav .nav__item {
+        font-size: 14px;
+    }
+}
