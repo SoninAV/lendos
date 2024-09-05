@@ -92,29 +92,91 @@
 }
 
 .for-Kursk__card_bcgr-1 {
-    background-image: url(../images/for-Kursk/house1.jpg);
+    background-image: url("../images/for-Kursk/house1.jpg");
 }
 
 .for-Kursk__card_bcgr-2 {
-    background-image: url(../images/for-Kursk/house2.jpg);
+    background-image: url("../images/for-Kursk/house2.jpg");
 }
 
 .for-Kursk__card_bcgr-3 {
-    background-image: url(../images/for-Kursk/house3.jpg);
+    background-image: url("../images/for-Kursk/house3.jpg");
 }
 
 .for-Kursk__card_bcgr-4 {
-    background-image: url(../images/for-Kursk/house4.jpg);
+    background-image: url("../images/for-Kursk/house4.jpg");
 }
 
 .for-Kursk__card_bcgr-5 {
-    background-image: url(../images/for-Kursk/house5.jpg);
+    background-image: url("../images/for-Kursk/house5.jpg");
 }
 
 .for-Kursk__card_bcgr-6 {
-    background-image: url(../images/for-Kursk/house6.jpg);
+    background-image: url("../images/for-Kursk/house6.jpg");
 }
 
 .for-Kursk__card_bcgr-7 {
-    background-image: url(../images/for-Kursk/house1.jpg);
+    background-image: url("../images/for-Kursk/house1.jpg");
+}
+
+@media (768px <= width < 1140px) {
+    .for-Kursk {
+        width: 100%;
+    }
+
+    .for-Kursk__cards {
+        width: 730px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .for-Kursk__title {
+        font-size: 40px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .for-Kursk__card {
+        width: 348px;
+    }
+
+    .for-Kursk__card {
+        order: 2;
+    }
+
+    .for-Kursk__card_box_1, .for-Kursk__card_box_7 {
+        order: 1;
+    }
+}
+
+@media (width < 768px) {
+    .for-Kursk {
+        width: 100%;
+    }
+
+    .for-Kursk__cards {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .for-Kursk__title {
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 1em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .for-Kursk__card {
+        width: 348px;
+    }
 }
